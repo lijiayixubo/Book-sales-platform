@@ -4,6 +4,7 @@
     <view class="text-area">
       <text color-red text-50>{{ title }}</text>
     </view>
+    <view @click="changeLogin">改变登录状态</view>
   </view>
 </template>
 
@@ -14,7 +15,14 @@ onLoad(() => {
   title = '小滴课堂'
 })
 
+let { isLogin } = $(useUser())
 
+console.log('1isLogin:', isLogin);
+
+const changeLogin = () => {
+  isLogin = true
+  console.log('2isLogin:', isLogin);
+}
 </script>
 
 <style>
