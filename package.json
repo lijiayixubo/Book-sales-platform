@@ -51,6 +51,7 @@
     "@dcloudio/uni-quickapp-webview": "3.0.0-alpha-3061620221230002",
     "unocss": "^0.50.1",
     "unocss-preset-weapp": "^0.4.2",
+    "unplugin-auto-import": "^0.15.0",
     "vue": "^3.2.45",
     "vue-i18n": "^9.1.9"
   },

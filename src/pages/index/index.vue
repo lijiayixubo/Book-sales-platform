@@ -8,8 +8,13 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
-const title = ref('Hello')
+let title = $ref('Hello')
+
+onLoad(() => {
+  title = '小滴课堂'
+})
+
+
 </script>
 
 <style>
