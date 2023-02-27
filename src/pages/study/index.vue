@@ -1,11 +1,18 @@
-<script lang='ts' setup>
+<script lang="ts" setup>
+import TabContainer from './components/TabContainer.vue'
+import NavigationBar from './components/NavigationBar.vue'
 
 </script>
 
 <template>
   <view>
-    学习
+    <NavigationBar />
+    <TabContainer />
   </view>
 </template>
 
-<style lang='less' scoped></style>
+<style>
+page {
+  background: #f5f5f5;
+}
+</style>
