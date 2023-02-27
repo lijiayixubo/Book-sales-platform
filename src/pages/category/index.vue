@@ -1,11 +1,12 @@
-<script lang='ts' setup>
+<script lang="ts" setup>
+import NavigationBar from './components/NavigationBar.vue'
+import ProductContainer from './components/ProductContainer.vue'
 
 </script>
 
 <template>
-  <view>
-    分类
+  <view style="background-color: #f3f3f3">
+    <NavigationBar />
+    <ProductContainer />
   </view>
 </template>
-
-<style lang='less' scoped></style>
