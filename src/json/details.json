@@ -1,0 +1,41 @@
+{
+  "code": 0,
+  "data": {
+    "accountId": 6782525,
+    "socialId": null,
+    "identityType": null,
+    "identifier": null,
+    "credential": null,
+    "username": "小滴课堂大钊",
+    "headImg": "https://file.xdclass.net/user_file/2022/12/27002521221eec76ed247dbd4b2210d3.jpg",
+    "slogan": "全栈工程师",
+    "sex": "男",
+    "city": "中国",
+    "sum": null,
+    "role": "FOREVER_VIP",
+    "learnTime": 52961,
+    "vipRank": 8096,
+    "coin": 43,
+    "vipExpired": "2023-09-05 08:00:00",
+    "tag": "",
+    "position": null,
+    "company": "前端",
+    "appid": "GSs03c0jyWIWxVqRVK",
+    "appsecret": "WWAsYsGOjXijC6eXeQ15tRpXPLhbgGDT",
+    "acl": {
+      "OAUTH_LOGIN": "YES",
+      "callback": "https://474y3966p9.goho.co/api/wx_login/v1/callback",
+      "SMS_AMOUNT": 62
+    },
+    "disabled": "ON",
+    "phone": "18826274067",
+    "email": null,
+    "bindWechat": true,
+    "medal": "FOREVER_VIP,YEAR_VIP,BACKEND_ONE_TO_ONE,FRONTEND_ONE_TO_ONE",
+    "setPassword": true,
+    "gmtCreate": null,
+    "gmtModified": "2023-02-05 19:59:13"
+  },
+  "msg": null
+}
+

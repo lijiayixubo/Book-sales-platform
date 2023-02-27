@@ -1,7 +1,8 @@
 export const useUser = defineStore(
   'user',
   () => {
-    let isLogin = $ref<boolean>(false);
+    let isLogin = $ref<boolean>(true);
+
     return $$({
       isLogin,
     });
