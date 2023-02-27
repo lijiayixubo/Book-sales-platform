@@ -1,54 +1,20 @@
 <template>
-  <view class="content">
-    <image class="logo" src="/static/logo.png" />
-    <view class="text-area">
-      <text color-red text-50>{{ title }}</text>
-    </view>
-    <view @click="changeLogin">改变登录状态</view>
+  <view>
+
   </view>
 </template>
 
 <script setup lang="ts">
-let title = $ref('Hello')
+import { getBannerList, getCardList } from '@/api'
+
+let bannerList = $ref<string[]>([])
+let cardList = $ref<any[]>([])
 
 onLoad(() => {
-  title = '小滴课堂'
+  cardList = getCardList().data
+  bannerList = getBannerList().data[0].imgUrl.split(',').map(item => item.replace('\n', ''))
 })
 
-let { isLogin } = $(useUser())
-
-console.log('1isLogin:', isLogin);
-
-const changeLogin = () => {
-  isLogin = true
-  console.log('2isLogin:', isLogin);
-}
 </script>
 
-<style>
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.logo {
-  height: 200rpx;
-  width: 200rpx;
-  margin-top: 200rpx;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50rpx;
-}
-
-.text-area {
-  display: flex;
-  justify-content: center;
-}
-
-.title {
-  font-size: 36rpx;
-  color: #8f8f94;
-}
-</style>
+<style></style>
