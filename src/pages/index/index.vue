@@ -1,10 +1,6 @@
-<template>
-  <view>
-
-  </view>
-</template>
-
 <script setup lang="ts">
+import NavigationBar from './components/NavigationBar.vue'
+
 import { getBannerList, getCardList } from '@/api'
 
 let bannerList = $ref<string[]>([])
@@ -16,5 +12,11 @@ onLoad(() => {
 })
 
 </script>
+
+<template>
+  <view relative w-full>
+    <NavigationBar />
+  </view>
+</template>
 
 <style></style>
