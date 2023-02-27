@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+import Product from './Product.vue'
 import { queryPlayRecordPage } from '@/api/user'
 
 let playRecordPage = $ref<any[]>([])
@@ -10,7 +11,7 @@ playRecordPage = queryPlayRecordPage().data.current_data
 <template>
   <view class="container">
     <view class="products">
-      111
+      <Product v-for="item in playRecordPage" :key="item.id" :product="item" />
     </view>
   </view>
 </template>
