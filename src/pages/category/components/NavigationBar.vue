@@ -7,4 +7,3 @@ import Search from '@/components/Search.vue'
     <Search color="#999999" background-color="white" />
   </uni-nav-bar>
 </template>
-
