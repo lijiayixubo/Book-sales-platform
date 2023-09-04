@@ -3,9 +3,9 @@ import Search from '@/components/Search.vue'
 </script>
 
 <template>
-  <uni-nav-bar :fixed="true" :status-bar="true" :border="false" background-color="#ffffff" class="navbar"
+  <uni-nav-bar :fixed="true" :status-bar="true" :border="false" background-color="#c9e2f6" class="navbar"
     left-width="1px">
-    <Search color="999999" background-color="#f6f6f6" />
+    <Search color="999999" background-color="#d8ecf9" />
   </uni-nav-bar>
 </template>
 

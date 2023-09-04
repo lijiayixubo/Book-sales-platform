@@ -33,7 +33,7 @@
   },
   "tabBar": {
     "color": "#515151",
-    "backgroundColor": "#ffffff",
+    "backgroundColor": "#c9e2f6",
     "selectedColor": "#f38e48",
     "fontSize": "12px",
     "iconWidth": "25px",
@@ -47,13 +47,13 @@
       },
       {
         "pagePath": "pages/category/index",
-        "text": "分类",
+        "text": "特价书籍",
         "iconPath": "static/images/icons/tabBar/categroy.png",
         "selectedIconPath": "static/images/icons/tabBar/category_active.png"
       },
       {
         "pagePath": "pages/study/index",
-        "text": "学习",
+        "text": "购买书籍",
         "iconPath": "static/images/icons/tabBar/study.png",
         "selectedIconPath": "static/images/icons/tabBar/study_active.png"
       },

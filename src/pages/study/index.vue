@@ -13,6 +13,6 @@ import NavigationBar from './components/NavigationBar.vue'
 
 <style>
 page {
-  background: #f5f5f5;
+  background: #c9e2f6;
 }
 </style>

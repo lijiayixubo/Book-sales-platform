@@ -22,7 +22,7 @@ playRecordPage = queryPlayRecordPage().data.current_data
   .tab_top {
     width: 100%;
     display: flex;
-    background-color: white;
+    background-color: #c9e2f6;
   }
 
   .products {

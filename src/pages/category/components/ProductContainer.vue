@@ -17,7 +17,7 @@ products = queryProductById().data.current_data;
 
 <style lang="scss" scoped>
 .container {
-  background-color: white;
+  background-color: #c9e2f6;
   border-top-left-radius: 30rpx;
   border-top-right-radius: 30rpx;
   padding: 30rpx 35rpx;

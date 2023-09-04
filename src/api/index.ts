@@ -9,7 +9,7 @@ export function getBannerList() {
 }
 
 /**
- * 首页的课程卡片接口
+ * 首页的接口
  */
 export function getCardList() {
   return cardJson;

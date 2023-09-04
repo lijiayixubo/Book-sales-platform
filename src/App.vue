@@ -10,4 +10,10 @@ onHide(() => {
   console.log("App Hide");
 });
 </script>
-<style></style>
+<style>
+page{
+	background-image: url(/src/static/images//pages/mine/bg-qjj.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+</style>

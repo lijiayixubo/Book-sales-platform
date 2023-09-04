@@ -3,11 +3,11 @@
 </script>
 
 <template>
-  <uni-nav-bar :fixed="true" :status-bar="true" :border="false" background-color="#ffffff" left-width="300rpx"
+  <uni-nav-bar :fixed="true" :status-bar="true" :border="false" background-color="#c9e2f6" left-width="300rpx"
     right-width="300rpx">
     <template #left>
       <text class="my_study">
-        我的学习
+        购买记录
       </text>
     </template>
   </uni-nav-bar>

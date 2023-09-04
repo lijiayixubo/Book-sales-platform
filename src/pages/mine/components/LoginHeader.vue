@@ -4,7 +4,7 @@ const { isLogin, details, switchLoginState } = $(useUser())
 const username = computed(() => (isLogin ? details?.username : '点击登录'))
 const avatar = computed(() => (isLogin ? details?.headImg : '/static/images/icons/mine/user.png'))
 const learnTime = computed(() =>
-  isLogin ? `学习时长：${(details?.learnTime as number / 3600).toFixed(2)}小时` : '新用户专属200D币礼包'
+  isLogin ? `成功的道路上充满荆棘，苦战方能成功。` : '欢迎登录图书平台'
 )
 
 const toLogin = () => {

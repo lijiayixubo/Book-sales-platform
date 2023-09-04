@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <uni-nav-bar :fixed="true" :status-bar="true" :border="false" background-color="#ffffff" left-width="300rpx"
+  <uni-nav-bar :fixed="true" :status-bar="true" :border="false" background-color="rgba(68, 178, 231,0)" left-width="300rpx"
     right-width="300rpx">
     <template #left>
       <text class="my_study">

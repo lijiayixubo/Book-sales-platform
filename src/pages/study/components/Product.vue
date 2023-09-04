@@ -19,14 +19,14 @@ function getProgress(product: IPlayRecord) {
       </text>
       <view class="progress">
         <progress :percent="getProgress(product)" active-color="#f59a23" border-radius="35" />
-        <text>已学习</text>
+        <text>已购买</text>
         <text class="percent">
           {{ getProgress(product) }}%
         </text>
       </view>
       <view class="bottom">
         <text v-if="product?.learnIds" class="chapter">
-          学习到：{{ product?.episodeTitle }}
+          销量：{{ product?.episodeTitle }}
         </text>
         <text v-else class="chapter">
           还未学习
@@ -44,7 +44,7 @@ function getProgress(product: IPlayRecord) {
   padding: 30rpx 30rpx 30rpx 30rpx;
   border-radius: 30rpx;
   box-sizing: border-box;
-  background-color: white;
+  background-color: #c9e2f6;
   box-shadow: 0px 3px 10px 0px rgba(215, 215, 215, 0.35);
 
   image {
@@ -103,7 +103,7 @@ function getProgress(product: IPlayRecord) {
       align-items: center;
       justify-content: space-between;
       margin-top: 15rpx;
-      background-color: white;
+      background-color: #c9e2f6;
 
       .chapter {
         color: #555555;
